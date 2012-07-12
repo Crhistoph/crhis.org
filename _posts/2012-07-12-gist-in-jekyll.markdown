@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gist in Jekyll
+date: 2012-07-12 18:00:00
 ---
 I was looking for a way to share some scripts I've been working on here on the blog and I found the [jekyll-gist-tag](https://github.com/edelabar/jekyll-gist-tag) plugin.
 

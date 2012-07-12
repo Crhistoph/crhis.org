@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 99% Invisible Kickstarter
+date: 2012-07-12 14:00:00
 ---
 One of my favourite podcasts, [99% Invisible](http://99percentinvisible.org) is has put Season 3 of the show [up on Kickstarter](http://www.kickstarter.com/projects/1748303376/99-invisible-season-3).
 
