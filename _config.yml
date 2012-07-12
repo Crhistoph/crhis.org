@@ -1,0 +1,4 @@
+markdown: rdiscount
+exclude: _drafts
+paginate: 3 
+pygments: true

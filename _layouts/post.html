@@ -1,0 +1,18 @@
+---
+layout: default
+---
+  <div class="webblogPost">
+  <h3><a href=" {{post.url}} "> {{ page.title }} </a></h3>
+      
+      <div id="weblogPostBody">
+  
+      {{ content }}
+      
+      </div>
+  </div>
+  
+  <div class="weblogPostDateline"><span class="weblogPostDisplayDate"><a href=" {{ post.url }} "> {{ page.date | date: "%d %B %Y" }} </a></span></div>	
+
+<p> 
+  <a href="/archives.html" title="Archive">Archive &rarr;</a> 
+</p> 

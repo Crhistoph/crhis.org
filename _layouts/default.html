@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> crhis.org: {{ page.title }}</title>
+	<meta name="MSSmartTagsPreventParsing" content="true" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<style type="text/css" media="all">@import "/css/style.css";</style>
+	<style type="text/css" media="all">@import "/css/syntax.css";</style>
+	<script type="text/javascript" src="http://use.typekit.com/oqq4qlv.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="http://crhis.org/js-global/FancyZoom.js" type="text/javascript"></script>
+	<script src="http://crhis.org/js-global/FancyZoomHTML.js" type="text/javascript"></script>
+	<link rel="alternate" type="application/atom+xml" title="Crhis (Atom)" href="http://crhis.org/atom.xml" />
+	<!-- Start of Woopra Code -->
+	<script type="text/javascript">
+	function woopraReady(tracker) {
+    	tracker.setDomain('crhis.org');
+    	tracker.setIdleTimeout(300000);
+    	tracker.track();
+    	return false;
+	}
+	(function() {
+    	var wsc = document.createElement('script');
+    	wsc.src = document.location.protocol+'//static.woopra.com/js/woopra.js';
+    	wsc.type = 'text/javascript';
+    	wsc.async = true;
+    	var ssc = document.getElementsByTagName('script')[0];
+    	ssc.parentNode.insertBefore(wsc, ssc);
+	})();
+	</script>
+<!-- End of Woopra Code -->
+</head>
+   
+<body onload="setupZoom()">
+
+<div id="banner">
+	<div id="innerbanner">
+		<span id="biglink"><a href="http://crhis.org">crhis.org</a></span> <span id="bigbyline">by Christopher Brennan</span>
+	</div>
+</div>
+
+<div id="pagebox">
+<div id="content">
+
+{{ content }}
+
+</div>
+</div>
+
+<div id="footer">
+	<div id="innerfooter">
+		<p>You can <a href="http://twitter.com/crhistoph">follow me (@crhistoph) on Twitter</a>.</p>
+		<p>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and squats.</p>
+		<p>© 2012 Christopher Brennan</p>
+	</div>
+</div>
+
+</body>
+</html>

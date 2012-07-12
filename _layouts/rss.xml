@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crhis.org</title>
+    <link>http://crhis.org/</link>
+    <atom:link href="http://crhis.org/rss.xml" rel="self" type="application/rss+xml" />
+    <description>stuff from crhis</description>
+    <language>en-gb</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for post in site.posts %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>http://crhis.org{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <author>me@crhis.org (Christopher Brennan)</author>
+      <guid>http://crhis.org{{ post.id }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {% endfor %}
+
+  </channel> 
+</rss>
